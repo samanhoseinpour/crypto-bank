@@ -20,9 +20,7 @@ const Navbar = () => {
             }`}
             key={link.id}
           >
-            <a className="hover:text-cyan-400" href={`#${link.id}`}>
-              {link.title}
-            </a>
+            <a href={`#${link.id}`}>{link.title}</a>
           </li>
         ))}
       </ul>
