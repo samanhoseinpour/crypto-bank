@@ -2,7 +2,7 @@ import styles from './style';
 import {
   Billing,
   Business,
-  CarDeal,
+  CardDeal,
   Clients,
   Cta,
   Footer,
@@ -31,7 +31,7 @@ const App = () => (
         <Stats />
         <Business />
         <Billing />
-        <CarDeal />
+        <CardDeal />
         <Testimonials />
         <Clients />
         <Cta />
