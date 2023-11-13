@@ -16,11 +16,15 @@ const Navbar = () => {
         {navLinks.map((link, index) => (
           <li
             className={`font-poppins font-normal cursor-pointer text-[16px] text-white list-none ${
-              index === navLinks.length - 1 ? 'mr-0' : 'mr-10'
+              index === navLinks.length - 1
+                ? 'mr-0 text-gradient px-8 font-bold'
+                : 'mr-10'
             }`}
             key={link.id}
           >
-            <a href={`#${link.id}`}>{link.title}</a>
+            <a href={`${link.id}`} target="blank">
+              {link.title}
+            </a>
           </li>
         ))}
       </ul>
@@ -40,12 +44,14 @@ const Navbar = () => {
           } p-6 bg-black-gradient absolute top-20 right-0 mx-4 my-2 w-full rounded-xl sidebar gap-4 justify-center`}
         >
           <ul className="flex flex-col justify-end items-center flex-1 gap-4">
-            {navLinks.map((link) => (
+            {navLinks.map((link, index) => (
               <li
-                className={`font-poppins font-normal cursor-pointer text-[16px] text-white list-none`}
+                className={`font-poppins font-normal cursor-pointer text-[16px] text-white list-none ${
+                  index === navLinks.length - 1 ? 'text-gradient font-bold' : ''
+                }`}
                 key={link.id}
               >
-                <a className="hover:text-cyan-400" href={`#${link.id}`}>
+                <a href={`${link.id}`} target="blank">
                   {link.title}
                 </a>
               </li>

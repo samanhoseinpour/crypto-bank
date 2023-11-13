@@ -17,20 +17,24 @@ import {
 
 export const navLinks = [
   {
-    id: 'home',
+    id: '#home',
     title: 'Home',
   },
   {
-    id: 'features',
+    id: '#features',
     title: 'Features',
   },
   {
-    id: 'product',
+    id: '#product',
     title: 'Product',
   },
   {
-    id: 'clients',
+    id: '#clients',
     title: 'Clients',
+  },
+  {
+    id: 'https://github.com/samanhoseinpour/crypto-bank',
+    title: 'Github',
   },
 ];
 
