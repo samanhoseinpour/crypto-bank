@@ -1,7 +1,7 @@
 import Billing from './Billing';
 import Business from './Business';
 import Button from './Button';
-import CarDeal from './CarDeal';
+import CardDeal from './CardDeal';
 import Clients from './Clients';
 import Cta from './Cta';
 import FeedbackCard from './FeedbackCard';
@@ -16,7 +16,7 @@ export {
   Billing,
   Business,
   Button,
-  CarDeal,
+  CardDeal,
   Clients,
   Cta,
   FeedbackCard,
