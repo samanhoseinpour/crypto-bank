@@ -2,7 +2,7 @@
 const Button = ({ styles, label }) => {
   return (
     <button
-      className={`${styles} py-4 px-6 bg-blue-gradient font-poppins font-medium text-primary outline-none`}
+      className={`${styles} py-4 px-6 bg-blue-gradient font-poppins font-medium text-primary outline-none rounded-md`}
     >
       {label}
     </button>
